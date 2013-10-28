@@ -3,16 +3,21 @@
         id        = "io.cordova.helloCordova"
         version   = "2.0.0">
     <name>01Rabbit</name>
-
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>
-
     <author href="http://cordova.io" email="dev@cordova.apache.org">
         Apache Cordova Team
     </author>
 
+<gap:platform name="ios" />
+<gap:platform name="android" />
+<preference name="phonegap-version" value="2.9.0" />
+<preference name="orientation" value="portrait" />
+<preference name="fullscreen" value="true" />
+
     <access origin="*"/>
+    <access origin="http://192.168.2.18*"/>
 
     <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
     <content src="index.html" />
