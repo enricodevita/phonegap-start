@@ -15,7 +15,7 @@
 <preference name="fullscreen" value="true" />
 
     <access origin="*"/>
-    <access origin="http://192.168.2.18*"/>
+    <access origin="http://medulcer.01rabbit.it*"/>
 
     <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
     <content src="index.html" />
